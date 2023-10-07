@@ -1,0 +1,26 @@
+while changing and modifying the array avoid some bad practices
+
+1.....
+const [colors, setColors] = useState(['red', 'green']);
+
+colors.push('blue');
+setColors(colors);
+this will not update colors
+
+
+2.....
+const [colors, setColors] = useState(['red', 'green']);
+
+colors[0] = 'blue'; 
+setColors(colors);
+this will not update colors
+
+
+3........
+const [fruits, setFruits] = useState({
+    color: 'red',
+    name: 'apple'
+})
+
+fruits.color = 'green';
+this will not update fruits color
