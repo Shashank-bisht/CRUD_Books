@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## important methods to update arrays and objects in react
+[State Updates.pdf](https://github.com/Shashank-bisht/CRUD_Books/files/12840077/State.Updates.pdf)
 
 In the project directory, you can run:
 
