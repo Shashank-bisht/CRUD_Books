@@ -24,3 +24,5 @@ const [fruits, setFruits] = useState({
 
 fruits.color = 'green';
 this will not update fruits color
+
+

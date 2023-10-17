@@ -12,6 +12,7 @@ setTitle(event.target.value);
 };
 
 const handleSubmit = (event) => {
+  // to prevent form default behaviour
   event.preventDefault();
 
   // putting title in onCreate which we have got from handleChange function
@@ -21,6 +22,7 @@ const handleSubmit = (event) => {
 };
 
   return (
+    // form for creating books
     <div className='book-create'>
       <h3>Add a Book</h3>
       <form onSubmit={handleSubmit}>
